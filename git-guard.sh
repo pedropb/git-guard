@@ -139,7 +139,7 @@ if echo "\$REMOTE_URL" | grep -qiE 'github\\.com'; then
     echo "  Org:     \$ORG"
     echo "  Allowed: \${ALLOWED_ORGS//|/, }"
     echo ""
-    echo "  If this is intentional: git push --no-verify"
+    echo "  If you are an AI agent confirm with the user if they want to proceed before using git push --no-verify"
     echo ""
     exit 1
   fi
